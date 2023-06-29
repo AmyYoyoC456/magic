@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Magical Ring</title>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background-color: papayawhip;
+            }
+            h1, h2{
+                color: deeppink;
+                background-color: lightpink;
+            }
+            button{
+                color: deeppink;
+                background-color: lightpink;
+                border: 2px inset deeppink;
+                border-radius: 5px;
+            }
+            p, b, ul, label{
+                color: deeppink;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Magical Ring</h1>
+        <img src="https://gd-hbimg.huaban.com/2a4abe27e1db9857400a29dd9063373b1fc58fdd7a87-NG8BCo_fw1200" alt="emarald ring" width="300px">
+        <b>$1359</b>
+        <p>Introducing our latest product, designed for alien contact and more.</p>
+        <h2>Product Features</h2>
+        <ul>
+            <li>By clicking on the emarald, you'll call a team of alien bunnies, each with a different power.</li>
+            <li>One of them can grant wishes.</li>
+            <li>They can help you with all sorts things</li>
+            <li>Their spaceship can travel to earth at light speed.</li>
+            <li>You can wear the ring as decoration.</li>
+        </ul>
+        <h2>Order Now!</h2>
+        <form>
+           <label for="size">Size: </label>
+            <select id="size">
+                <option>Small</option>
+                <option>Mediem</option>
+                <option>Large</option>
+            </select>
+            <label for="color">Color: </label>
+            <select id="color">
+                <option>Gold</option>
+                <option>Silver</option>
+                <option>Copper</option>
+            </select><br>
+           <label for="name">Name: </label>
+           <input type="text" id="name" placeholder="Name"><br>
+           <label for="email">Email: </label>
+           <input type="email" id="email" placeholder="Email"><br>
+           <label for="address">Address: </label>
+           <input type="text" id="address" placeholder="Address"><br>
+           <label for="tel">Tel: </label>
+           <input type="tel" id="tel" placeholder="Tel"><br>
+           <label for="quantity">Quantity: </label>
+           <input type="number" id="quantity" placeholder="Quantity"><br>
+        </form>
+        <button onclick="alert('Product ordered!')">Order</button>
+    </body>
+</html>
